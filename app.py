@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load trained model
-model = joblib.load("random_forest_best.pkl")
+model = joblib.load("random_forest_under_25mb.pkl")
 
 st.set_page_config(page_title="Random Forest Regression App", layout="centered")
 
